@@ -54,6 +54,7 @@ jobs:
     - script:
       - fastlane deploy flavor:simprints
       - fastlane deploy flavor:surveillance_covid19_kenya
+      - fastlane deploy flavor:kenya_emr
       - fastlane deploy flavor:vhw_burundi
     - script:
 before_install:
